@@ -107,7 +107,7 @@ int main()
     return 0;
 }
 
-//Se define la estructura de entrada de datos 
+//Se define la estructura de entrada de datos.
 void getAlumno(struct Alumno *alumno)
 {
     printf(ROJO_T "Matricula: " AZUL_T);
