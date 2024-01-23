@@ -58,7 +58,7 @@ int main()
         //Se agrega una secuencia repetitiva en la opcion 1 y se llama la estructura de ingreso de datos 
             if (indice < n)
             {        
-                //Se intenta mandars los datos al archivo        
+                //Se intenta mandars los datos al archivo    .    
                 FILE *archivo = fopen("Evaluacion.txt", "r+");
                 printf("\nIngresar datos del alumno %d:\n" RESET_T, indice + 1);
                 getAlumno(&alumnos[indice]);
